@@ -1,0 +1,32 @@
+# Proyecto Final – Data Science  
+### Análisis y Modelo Predictivo usando Dataset de Taylor Swift
+
+Este repositorio contiene el proyecto final de la materia *Data Science*, donde se utiliza un dataset de canciones de Taylor Swift para realizar:
+
+- Exploración de datos (EDA)
+- Limpieza y transformación del dataset
+- Selección de características (Feature Selection)
+- Entrenamiento de un modelo de regresión
+- Evaluación mediante métricas (MAE, MSE, R²)
+- Conclusiones basadas en los resultados
+
+## Archivos incluidos
+
+- **GORLERO_ENTREGA_FINAL.ipynb** → Notebook con todo el análisis y el modelo.
+- **Taylor Swift Database.csv** → Dataset utilizado.
+
+## Objetivo del proyecto
+Predecir la *popularidad* de cada canción en base a variables musicales como energía, acústica, bailabilidad, valencia, tempo, loudness, etc.
+
+## Metodología
+1. EDA con análisis univariado, bivariado y multivariado.  
+2. Selección de features usando *SelectKBest*.  
+3. Modelo aplicado: **Regresión Lineal**.  
+4. Validación del modelo con MAE, MSE y R².
+
+## Resultados
+El modelo logró explicar parcialmente la variabilidad en la popularidad.  
+Las variables seleccionadas como más influyentes fueron:
+- `acousticness`
+- `energy`
+- `speechiness`
